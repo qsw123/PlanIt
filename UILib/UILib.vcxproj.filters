@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Aux">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9cff4bea-8262-4fc0-a06a-e06f06facc14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{ac642ed9-d5f5-4580-b7d0-7bb3dce3017c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd">
+      <UniqueIdentifier>{693bf27f-d76d-4039-9bf2-fc720a61bf97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\UIDbg.cpp">
+      <Filter>Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\stb_image.c">
+      <Filter>Res</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UIImage.cpp">
+      <Filter>Res</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UIRes.cpp">
+      <Filter>Res</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UIApp.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UIWndBase.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UIRender.cpp">
+      <Filter>Res</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UIControl.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UILua.cpp">
+      <Filter>Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\lua523\include\lua_tinker.cpp">
+      <Filter>3rd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\lua523\include\ScriptBase.cpp">
+      <Filter>3rd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\UIDbg.h">
+      <Filter>Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIException.h">
+      <Filter>Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIImage.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIRes.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIApp.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIBase.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIMsgCracker.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIWndBase.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIRender.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UIControl.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UILua.h">
+      <Filter>Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\lua523\include\lauxlib.h">
+      <Filter>3rd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\lua523\include\lua.h">
+      <Filter>3rd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\lua523\include\lua.hpp">
+      <Filter>3rd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\lua523\include\lua_tinker.hpp">
+      <Filter>3rd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\lua523\include\luaconf.h">
+      <Filter>3rd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\lua523\include\lualib.h">
+      <Filter>3rd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\lua523\include\ScriptBase.hpp">
+      <Filter>3rd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
